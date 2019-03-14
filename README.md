@@ -9,7 +9,7 @@ Based on Multinoulli distribution, the DisturbLabel algorithm changes a small po
 ## Implementation details:
 
 - platform details:
-```python
+```
 python = 3.7
 pytorch = 1.0.1
 gpu = NVIDIA GTX 1080Ti
@@ -25,19 +25,19 @@ gpu = NVIDIA GTX 1080Ti
 
 ## Running the code:
 - to run the code with **no regularization**:
-```python
+```
 python main.py --mode=noreg
 ```
 - to run the code with **dropout**:
-```python
+```
 python main.py --mode=dropout
 ```
 - to run the code with **disturblabel**:
-```python
+```
 python main.py --mode=disturblabel --alpha=10  # --alpha can be any number (10, 20, 40 in the paper)
 ```
 - to run the code with **no regularization**:
-```python
+```
 python main.py --mode=both --alpha=10  # --alpha can be any number (10, 20, 40 in the paper)
 ```
 
